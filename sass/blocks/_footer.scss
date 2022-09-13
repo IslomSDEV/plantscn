@@ -1,0 +1,81 @@
+.foter {
+    max-width: 100vw;
+
+    &__all {
+        width: 100%;
+        // margin-top: 228px;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 128px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        font-family: 'DM Sans';
+        color: $main-qora;
+    }
+
+    &__text {
+        width: 306px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #5A5A5A;
+    }
+
+    &__iconbox {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__iconlink {
+        text-decoration: none;
+        background-color: #EDFFDD;
+        border-radius: 5px;
+    }
+
+    &__iconlink:nth-child(1) {
+        padding: 13px 18.42px;
+    }
+
+    &__iconlink:nth-child(2) {
+        padding: 15.84px 13.5px;
+    }
+
+    &__iconlink:nth-child(3) {
+        padding: 14px 14px;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #5A5A5A;
+        margin-bottom: 15px;
+    }
+
+    &__link:nth-child(4) {
+        margin-bottom: 0;
+    }
+}

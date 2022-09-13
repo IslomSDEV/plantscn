@@ -1,0 +1,65 @@
+.header {
+    width: 100vw;
+    padding: 30px 0;
+    background-color: $main-oq;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    &__flex{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__navbar {
+        margin-left: 320px;
+    }
+
+    &__navlink {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: $main-qora;
+        margin-right: 48px;
+        text-decoration: none;
+    }
+
+    &__navlink:last-child {
+        margin-right: 0;
+    }
+
+    &__btns {
+        display: flex;
+        align-items: center;
+    }
+
+    &__login {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: $main-qora;
+        text-decoration: none;
+        display: block;
+    }
+
+    &__signup {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: $main-oq;
+        text-decoration: none;
+        padding: 12px 16px;
+        background-color: $main-yashil;
+        border-radius: 4px;
+        display: block;
+        margin-left: 48px;
+    }
+}
