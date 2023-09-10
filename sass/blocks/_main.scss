@@ -18,7 +18,7 @@
 
     &__title {
         width: 548px;
-        font-family: 'Nunito';
+        font-family: 'Nunito' sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 72px;
@@ -28,7 +28,7 @@
 
     &__text {
         width: 504px;
-        font-family: 'DM Sans';
+        font-family: 'DM Sans'sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -39,7 +39,6 @@
 
 
     &__btn {
-        // display: inline-block;
         padding: 16px 32px;
         font-family: 'DM Sans';
         border: none;
