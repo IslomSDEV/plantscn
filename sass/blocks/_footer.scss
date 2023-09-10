@@ -3,7 +3,6 @@
 
     &__all {
         width: 100%;
-        // margin-top: 228px;
     }
 
     &__list {
@@ -25,7 +24,7 @@
 
     &__text {
         width: 306px;
-        font-family: 'DM Sans';
+        font-family: 'DM Sans' sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
